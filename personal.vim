@@ -1,4 +1,4 @@
-inoremap <S-i> <C-c> 
+inoremap <S-h> <C-c> 
 nnoremap <S-i> i 
 
 inoremap <Esc> <NOP>
@@ -25,3 +25,4 @@ endfunction
 :inoremap <Tab> <C-R>=Tab_Or_Complete()<CR>
 :set dictionary="/usr/dict/words"
 
+:set background=dark
