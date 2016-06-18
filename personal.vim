@@ -1,4 +1,4 @@
-inoremap <S-h> <C-c> 
+inoremap hh <C-c> 
 nnoremap <S-i> i 
 
 inoremap <Esc> <NOP>
