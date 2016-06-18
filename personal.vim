@@ -1,3 +1,5 @@
+let mapleader="."
+
 inoremap hh <C-c> 
 nnoremap <S-i> i 
 
