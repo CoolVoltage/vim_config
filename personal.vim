@@ -25,3 +25,7 @@ endfunction
 :set dictionary="/usr/dict/words"
 
 :set background=dark
+:set foldmethod=indent
+
+nnoremap <silent> <Space> @=(foldlevel('.')?'za':"\<Space>")<CR>
+
